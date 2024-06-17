@@ -16,8 +16,7 @@ namespace Course
             Console.Write("Valor 2: ");
             x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Valor 3: ");
-            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
+            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); //valor das áreas do X capturadas
 
             Console.WriteLine("Entre com as medidas do triângulo Y");
             Console.Write("Valor 1: ");
@@ -25,12 +24,10 @@ namespace Course
             Console.Write("Valor 1: ");
             y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Valor 1: ");
-            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
+            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); //valor das áreas do Y capturadas
 
             double areaX = x.Area();
             double areaY = y.Area();
-
 
             Console.WriteLine("Área de X = " + areaX.ToString("F4", CultureInfo.InvariantCulture));
             Console.WriteLine("Área de Y = " + areaY.ToString("F4", CultureInfo.InvariantCulture));
@@ -42,9 +39,7 @@ namespace Course
             {
                 Console.WriteLine("A maior área é: Y");
             }
-
             Console.ReadLine();
         }
-
     }
 }
