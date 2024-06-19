@@ -21,9 +21,9 @@ namespace Course
             Console.WriteLine("Entre com as medidas do triângulo Y");
             Console.Write("Valor 1: ");
             y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.Write("Valor 1: ");
+            Console.Write("Valor 2: ");
             y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.Write("Valor 1: ");
+            Console.Write("Valor 3: ");
             y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); //valor das áreas do Y capturadas
 
             double areaX = x.Area();
